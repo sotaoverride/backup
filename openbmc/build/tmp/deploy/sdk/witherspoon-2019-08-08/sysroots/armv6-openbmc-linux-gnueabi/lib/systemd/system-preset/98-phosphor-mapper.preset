@@ -1,0 +1,3 @@
+enable mapper-wait@.service
+enable mapper-subtree-remove@.service
+enable xyz.openbmc_project.ObjectMapper.service

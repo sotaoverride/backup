@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: openpower-dbus-interfaces
+Description: Generated sdbusplus bindings for openpower-dbus-interfaces.
+URL: https://github.com/openbmc/openpower-dbus-interfaces
+Version: 1.0
+Requires.private:  libsystemd >= 221 sdbusplus
+Libs: -L/usr/lib -lopenpower_dbus
+Cflags: -I/usr/include

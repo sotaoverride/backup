@@ -1,0 +1,21 @@
+[binaries]
+c = ['arm-openbmc-linux-gnueabi-gcc', '-march=armv6', '-marm', '-mtune=arm1176jz-s', '--sysroot=/home/aatir/Code/phosphor-logging/openbmc/build/tmp/deploy/sdk/witherspoon-2019-08-08/sysroots/armv6-openbmc-linux-gnueabi']
+cpp = ['arm-openbmc-linux-gnueabi-g++', '-march=armv6', '-marm', '-mtune=arm1176jz-s', '--sysroot=/home/aatir/Code/phosphor-logging/openbmc/build/tmp/deploy/sdk/witherspoon-2019-08-08/sysroots/armv6-openbmc-linux-gnueabi']
+ar = ['arm-openbmc-linux-gnueabi-ar']
+nm = ['arm-openbmc-linux-gnueabi-nm']
+ld = ['arm-openbmc-linux-gnueabi-ld', '--sysroot=/home/aatir/Code/phosphor-logging/openbmc/build/tmp/deploy/sdk/witherspoon-2019-08-08/sysroots/armv6-openbmc-linux-gnueabi']
+strip = ['arm-openbmc-linux-gnueabi-strip']
+pkgconfig = 'pkg-config'
+
+[properties]
+needs_exe_wrapper = true
+c_args = ['-O2', '-pipe', '-g', '-feliminate-unused-debug-types']
+c_link_args = ['-Wl,-O1', '-Wl,--hash-style=gnu', '-Wl,--as-needed']
+cpp_args = []
+cpp_link_args = ['-Wl,-O1', '-Wl,--hash-style=gnu', '-Wl,--as-needed']
+
+[host_machine]
+system = 'linux'
+cpu_family = 'x86_64'
+cpu = 'x86_64'
+endian = 'little'

@@ -1,0 +1,2 @@
+enable openpower-debug-collector-checkstop@.service
+enable openpower-debug-collector-watchdog@.service

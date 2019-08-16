@@ -1,0 +1,10 @@
+prefix=/usr
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: sdeventplus
+Description: C++ systemd event wrapper
+Version: 0.1
+Requires.private: libsystemd >= 239, stdplus
+Libs: -L${libdir} -lsdeventplus
+Cflags: -I${includedir}

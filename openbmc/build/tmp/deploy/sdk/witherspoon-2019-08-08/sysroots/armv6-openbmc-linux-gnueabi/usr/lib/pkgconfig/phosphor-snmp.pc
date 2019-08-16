@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: phosphor-snmp
+Description: Phosphor snmp utilities
+URL: https://github.com/openbmc/phosphor-snmp
+Version: 1.0
+Requires:   sdbusplus  
+Requires.private:  libsystemd >= 221  phosphor-logging phosphor-dbus-interfaces
+Libs: -L/usr/lib -lsnmp
+Cflags: -I/usr/include

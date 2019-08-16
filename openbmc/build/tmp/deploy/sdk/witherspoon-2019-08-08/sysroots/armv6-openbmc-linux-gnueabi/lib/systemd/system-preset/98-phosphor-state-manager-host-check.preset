@@ -1,0 +1,2 @@
+enable phosphor-reset-host-check@.service
+enable phosphor-reset-host-running@.service

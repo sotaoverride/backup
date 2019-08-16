@@ -1,0 +1,4 @@
+enable obmc-console@.service
+enable obmc-console@ttyVUART0.service
+enable obmc-console-ssh.socket
+enable obmc-console-ssh@.service

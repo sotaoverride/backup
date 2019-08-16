@@ -1,0 +1,2 @@
+enable phosphor-watchdog@.service
+enable obmc-enable-host-watchdog@.service

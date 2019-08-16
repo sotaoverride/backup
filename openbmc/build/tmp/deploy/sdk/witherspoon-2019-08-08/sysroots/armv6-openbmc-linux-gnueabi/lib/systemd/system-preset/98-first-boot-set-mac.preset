@@ -1,0 +1,2 @@
+enable first-boot-set-mac@.service
+enable first-boot-set-mac@eth0.service

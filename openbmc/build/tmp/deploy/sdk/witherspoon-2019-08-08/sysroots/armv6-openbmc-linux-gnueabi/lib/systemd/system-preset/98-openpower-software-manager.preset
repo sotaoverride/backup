@@ -1,0 +1,12 @@
+enable obmc-flash-bios-ubiattach.service
+enable obmc-flash-bios-ubimount@.service
+enable obmc-flash-bios-ubiumount-ro@.service
+enable obmc-flash-bios-ubiumount-rw@.service
+enable obmc-flash-bios-ubipatch.service
+enable obmc-flash-bios-ubiremount.service
+enable obmc-flash-bios-updatesymlinks.service
+enable obmc-flash-bios-cleanup.service
+enable obmc-flash-bios-enable-clearvolatile@.service
+enable obmc-flash-bios-check-clearvolatile@.service
+enable op-pnor-msl.service
+enable org.open_power.Software.Host.Updater.service

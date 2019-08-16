@@ -1,0 +1,9 @@
+prefix=/usr
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gpioplus
+Description: C++ systemd event wrapper
+Version: 0.1
+Libs: -L${libdir} -lgpioplus
+Cflags: -I${includedir}

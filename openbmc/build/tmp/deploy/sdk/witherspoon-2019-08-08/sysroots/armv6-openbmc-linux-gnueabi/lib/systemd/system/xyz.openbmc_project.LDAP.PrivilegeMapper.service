@@ -1,0 +1,12 @@
+[Unit]
+Description=Phosphor LDAP privilege mapper
+
+[Service]
+ExecStart=/usr/bin/env phosphor-ldap-mapper
+SyslogIdentifier=phosphor-ldap-mapper
+Restart=always
+Type=dbus
+BusName=xyz.openbmc_project.LDAP.PrivilegeMapper
+
+[Install]
+WantedBy=multi-user.target

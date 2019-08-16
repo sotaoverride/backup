@@ -1,0 +1,13 @@
+[Unit]
+Description=Phosphor Power%i Control
+
+[Service]
+EnvironmentFile=/etc/default/obmc/power_control
+Restart=always
+ExecStart=/usr/bin/env power_control.exe $POLL_INTERVAL $PGOOD_TIMEOUT
+SyslogIdentifier=power_control.exe
+Type=dbus
+BusName=org.openbmc.control.Power
+
+[Install]
+WantedBy=multi-user.target

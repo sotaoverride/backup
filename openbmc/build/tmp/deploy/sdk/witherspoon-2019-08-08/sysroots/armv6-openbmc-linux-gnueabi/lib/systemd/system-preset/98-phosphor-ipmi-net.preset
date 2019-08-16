@@ -1,0 +1,2 @@
+enable phosphor-ipmi-net@eth0.service
+enable phosphor-ipmi-net@eth0.socket

@@ -1,0 +1,2 @@
+enable phosphor-fan-control@.service
+enable phosphor-fan-control-init@.service

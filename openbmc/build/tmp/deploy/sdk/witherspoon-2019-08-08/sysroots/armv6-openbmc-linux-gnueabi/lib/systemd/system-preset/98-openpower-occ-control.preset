@@ -1,0 +1,3 @@
+enable op-occ-enable@.service
+enable op-occ-disable@.service
+enable org.open_power.OCC.Control.service

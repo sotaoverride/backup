@@ -1,0 +1,15 @@
+/* -*- mode: c; c-basic-offset: 4; indent-tabs-mode: nil -*- */
+/*
+ * Copyright 1987, 1988, 1989 Massachusetts Institute of Technology
+ * (Student Information Processing Board)
+ *
+ * For copyright info, see copyright.h.
+ */
+
+#include <stdio.h>
+
+#include "copyright.h"
+#include "ss_internal.h"
+
+ss_data** _ss_table = (ss_data**)NULL;
+char* _ss_pager_name = (char*)NULL;

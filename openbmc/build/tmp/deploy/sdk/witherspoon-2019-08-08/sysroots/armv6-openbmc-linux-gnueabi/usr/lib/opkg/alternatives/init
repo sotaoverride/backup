@@ -1,0 +1,3 @@
+/sbin/init
+/sbin/preinit-mounts 400
+/lib/systemd/systemd 300

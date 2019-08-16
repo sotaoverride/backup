@@ -1,0 +1,2 @@
+enable xyz.openbmc_project.Ldap.Config.service
+enable xyz.openbmc_project.LDAP.PrivilegeMapper.service

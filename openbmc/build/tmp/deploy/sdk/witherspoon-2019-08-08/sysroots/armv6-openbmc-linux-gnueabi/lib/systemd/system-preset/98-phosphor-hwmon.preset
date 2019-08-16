@@ -1,0 +1,2 @@
+enable xyz.openbmc_project.Hwmon@.service
+enable max31785-hwmon-helper@.service

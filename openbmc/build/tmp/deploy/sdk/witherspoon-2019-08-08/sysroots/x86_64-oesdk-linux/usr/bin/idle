@@ -1,0 +1,5 @@
+#!/home/aatir/Code/phosphor-logging/openbmc/build/tmp/deploy/sdk/witherspoon-2019-08-08/sysroots/x86_64-oesdk-linux/usr/bin/python2.7
+
+from idlelib.PyShell import main
+if __name__ == '__main__':
+    main()

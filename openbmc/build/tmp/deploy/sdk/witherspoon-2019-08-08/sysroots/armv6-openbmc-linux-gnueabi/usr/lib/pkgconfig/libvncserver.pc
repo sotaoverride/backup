@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: LibVNCServer
+Description: A library for easy implementation of a VNC server.
+Version: 0.9.12
+Requires:
+Requires.private: zlib
+Libs: -L${libdir} -lvncserver
+Libs.private:  -lpthread -lsystemd -lz -llzo2 -ljpeg -lssl -lcrypto
+Cflags: -I${includedir}

@@ -1,0 +1,2 @@
+enable xyz.openbmc_project.Network.service
+enable ncsi-netlink.service

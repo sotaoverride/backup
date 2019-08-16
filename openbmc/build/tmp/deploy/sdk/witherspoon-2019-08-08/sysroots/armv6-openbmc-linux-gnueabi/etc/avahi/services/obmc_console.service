@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+<service-group>
+        <name>obmc_console</name>
+        <service>
+                <type>_obmc_console._tcp</type>
+                <port>2200</port>
+        </service>
+</service-group>

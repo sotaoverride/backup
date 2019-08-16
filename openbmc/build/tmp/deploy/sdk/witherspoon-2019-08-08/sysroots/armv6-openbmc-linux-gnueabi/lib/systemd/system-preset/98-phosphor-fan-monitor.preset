@@ -1,0 +1,2 @@
+enable phosphor-fan-monitor@.service
+enable phosphor-fan-monitor-init@.service

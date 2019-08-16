@@ -1,0 +1,2 @@
+phosphor_pel_tool_SOURCES += \
+	peltool.cpp 

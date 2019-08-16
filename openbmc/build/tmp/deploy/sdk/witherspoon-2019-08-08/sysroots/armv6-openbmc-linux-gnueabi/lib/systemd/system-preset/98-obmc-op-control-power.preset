@@ -1,0 +1,9 @@
+enable op-power-start@.service
+enable op-wait-power-on@.service
+enable op-power-stop@.service
+enable op-wait-power-off@.service
+enable op-reset-chassis-running@.service
+enable op-reset-chassis-on@.service
+enable op-powered-off@.service
+enable org.openbmc.control.Power@0.service
+enable org.openbmc.control.Power@.service

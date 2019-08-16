@@ -1,0 +1,7 @@
+ID="openbmc-phosphor"
+NAME="Phosphor OpenBMC (Phosphor OpenBMC Project Reference Distro)"
+VERSION="2.8.0-dev"
+VERSION_ID="2.8.0-dev-203-g4c78c23ad"
+PRETTY_NAME="Phosphor OpenBMC (Phosphor OpenBMC Project Reference Distro) 2.8.0-dev"
+BUILD_ID="2.8.0-dev"
+OPENBMC_TARGET_MACHINE="witherspoon"

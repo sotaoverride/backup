@@ -1,0 +1,12 @@
+enable obmc-flash-bmc-ubirw.service
+enable obmc-flash-bmc-ubiro@.service
+enable obmc-flash-bmc-ubirw-remove.service
+enable obmc-flash-bmc-ubiro-remove@.service
+enable obmc-flash-bmc-ubiremount.service
+enable obmc-flash-bmc-updateubootvars@.service
+enable obmc-flash-bmc-cleanup.service
+enable obmc-flash-bmc-mirroruboot.service
+enable reboot-guard-enable.service
+enable reboot-guard-disable.service
+enable force-reboot.service
+enable usr-local.mount

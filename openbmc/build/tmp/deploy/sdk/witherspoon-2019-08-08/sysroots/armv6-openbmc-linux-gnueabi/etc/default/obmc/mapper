@@ -1,0 +1,3 @@
+MAPPER_SERVICES="xyz.openbmc_project org.open_power org.openbmc com.ibm"
+MAPPER_INTERFACES="xyz.openbmc_project org.freedesktop.DBus.ObjectManager org.open_power org.openbmc com.ibm"
+MAPPER_SERVICEBLACKLISTS=""

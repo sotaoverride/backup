@@ -1,0 +1,11 @@
+[Unit]
+Description=Phosphor Download Manager
+
+[Service]
+ExecStart=/usr/bin/phosphor-download-manager
+Restart=always
+Type=dbus
+BusName=xyz.openbmc_project.Software.Download
+
+[Install]
+WantedBy=multi-user.target

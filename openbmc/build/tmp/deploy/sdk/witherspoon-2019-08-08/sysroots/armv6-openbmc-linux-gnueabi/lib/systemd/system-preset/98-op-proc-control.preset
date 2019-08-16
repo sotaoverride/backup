@@ -1,0 +1,4 @@
+enable pcie-poweroff@.service
+enable pcie-poweroff@0.service
+enable xyz.openbmc_project.Control.Host.NMI.service
+enable nmi.service

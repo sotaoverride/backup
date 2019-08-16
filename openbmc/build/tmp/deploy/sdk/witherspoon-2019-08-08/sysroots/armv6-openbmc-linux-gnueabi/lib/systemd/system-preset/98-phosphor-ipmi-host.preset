@@ -1,0 +1,2 @@
+enable xyz.openbmc_project.Ipmi.Internal.SoftPowerOff.service
+enable phosphor-ipmi-host.service

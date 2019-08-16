@@ -1,0 +1,12 @@
+[Unit]
+Description=Phosphor Host Console SSH Per-Connection
+Wants=obmc-console@ttyVUART0.service
+
+[Service]
+Environment="DROPBEAR_RSAKEY_DIR=/etc/dropbear"
+EnvironmentFile=/etc/default/dropbear
+ExecStart=-/usr/bin/env dropbear -i -r ${DROPBEAR_RSAKEY_DIR}/dropbear_rsa_host_key -c "/usr/bin/env obmc-console-client" $DROPBEAR_EXTRA_ARGS
+SyslogIdentifier=dropbear
+ExecReload=/bin/kill -HUP $MAINPID
+StandardInput=socket
+KillMode=process

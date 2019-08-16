@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: phosphor-dbus-interfaces
+Description: Generated sdbusplus bindings for phosphor-dbus-interfaces.
+URL: https://github.com/openbmc/phosphor-dbus-interfaces
+Version: 1.0
+Requires.private:  libsystemd >= 221 sdbusplus
+Libs: -L/usr/lib -lphosphor_dbus
+Cflags: -I/usr/include
